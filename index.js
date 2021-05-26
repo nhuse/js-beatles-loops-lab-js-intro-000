@@ -22,8 +22,8 @@ function iLoveTheBeatles(num) {
   const newArr = [];
   let i = 0;
   do {
+    i = i+1;
     newArr.push('I love the Beatles!');
-    ++i;
   } while(i<num);
 
   return newArr;
