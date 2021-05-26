@@ -13,7 +13,7 @@ function johnLennonFacts(factsArray) {
   const exclamationPoint = "!!!";
   for (var i = 0; i < factsArray.length; i++) {
     let newString = factsArray[i].concat(exclamationPoint);
-    newArr.unshift(newString);
+    newArr.push(newString);
   }
   return newArr;
 }
